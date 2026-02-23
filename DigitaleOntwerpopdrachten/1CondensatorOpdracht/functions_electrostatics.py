@@ -9,8 +9,6 @@ def find_idx_nearest(array, value):
     idx = (np.abs(array - value)).argmin()
     return idx
 
-
-
 def initialization_contour(V,B,V0):
     """ Initialize electrical potential of domain boundaries at V0 """
     V[0,:] = V0  # top edge
